@@ -1,18 +1,16 @@
 ---
-title: A Letter for June
-date: 2023-06-02
+title: Wedding Information
+date: 2026-09-02
 tags:
-  - letter
-  - family
-description: A note about ordinary days and keeping in touch.
+  - notes
+  - wedding
+description: General notes I took about your future wedding wishes.
 ---
 
-Dear June,
-
-I hope this finds you well. The garden is getting on beautifully this year, and the evenings have been long enough for one more cup of tea on the porch.
-
-Write when you can. There is always room for another story.
-
-With love,
-
-M.
+Main Color: Green (obviously)
+Theme: Mixed with country (mechanical bull) or fairytale theme with Rapunzel
+Theme Two: Garden European Style + Old English Rose Garden (Bridgerton)
+Guy Color: Tan for the guys
+Florals: roses, peonies, hydrangeas, snap dragons, babies breath, greenery (dark green eucalyptus)
+Songs: Father Daughter (I loved her first), She's In love with the boy
+Ring Design: green stone, gold band, leaf extra, two ring set (first one for proposal, second one added at wedding)
