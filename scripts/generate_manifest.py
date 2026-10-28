@@ -64,6 +64,26 @@ def parse_markdown(text: str) -> tuple[dict[str, Any], str]:
     return metadata, body
 
 
+def parse_python_metadata(text: str) -> dict[str, Any]:
+    match = re.match(r'\A(?:\ufeff)?"""[ \t]*\r?\n(.*?)\r?\n"""', text, re.DOTALL)
+    if not match:
+        return {}
+
+    metadata: dict[str, Any] = {}
+    current_key: str | None = None
+    for line in match.group(1).splitlines():
+        key_value = re.match(r"^([A-Za-z_][\w-]*):\s*(.*?)\s*$", line)
+        if key_value:
+            key, raw_value = key_value.groups()
+            current_key = key.lower().replace("-", "_")
+            metadata[current_key] = parse_value(raw_value)
+        elif line[:1].isspace() and current_key:
+            metadata[current_key] = f"{metadata[current_key]} {line.strip()}"
+        else:
+            current_key = None
+    return metadata
+
+
 def load_sidecar(file_path: Path) -> dict[str, Any]:
     candidates = (file_path.with_name(file_path.name + ".json"), file_path.with_suffix(".json"))
     for candidate in candidates:
@@ -113,6 +133,8 @@ def build_item(path: Path, category: str) -> dict[str, Any]:
     if path.suffix.lower() in TEXT_EXTENSIONS:
         raw_text = path.read_text(encoding="utf-8-sig")
         frontmatter, markdown_body = parse_markdown(raw_text)
+        if path.suffix.lower() == ".py":
+            frontmatter = {**parse_python_metadata(raw_text), **frontmatter}
     sidecar = load_sidecar(path)
     metadata = {**frontmatter, **sidecar}
     stem_title = path.stem.replace("-", " ").replace("_", " ").strip().title()
@@ -147,7 +169,11 @@ def main() -> None:
         paths = sorted(
             (
                 path for path in folder.rglob("*")
-                if path.is_file() and path.name not in IGNORE_NAMES and not is_sidecar(path)
+                if path.is_file()
+                and "__pycache__" not in path.parts
+                and path.suffix.lower() not in {".pyc", ".pyo"}
+                and path.name not in IGNORE_NAMES
+                and not is_sidecar(path)
             ),
             key=lambda path: path.relative_to(folder).as_posix().lower(),
         )

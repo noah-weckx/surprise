@@ -151,6 +151,30 @@
       code.textContent = item.text || "No text has been added for this entry.";
       pre.append(code);
       body.append(pre);
+      const isHeartPreview = (
+        /(?:^|\/)proud_heart(?:\.py)?$/i.test(item.id || item.path || "") ||
+        (item.tags || []).includes("interactive")
+      );
+      if (isHeartPreview) {
+        const previewButton = document.createElement("button");
+        previewButton.className = "heart-preview-trigger";
+        previewButton.type = "button";
+        previewButton.textContent = "Interactive Preview";
+        previewButton.addEventListener("click", function () {
+          const preview = window.ArchiveHeartWidget.createPreview();
+          const codeButton = document.createElement("button");
+          codeButton.className = "heart-preview-trigger";
+          codeButton.type = "button";
+          codeButton.textContent = "View Code";
+          codeButton.addEventListener("click", function () {
+            body.replaceChildren(pre, previewButton);
+            previewButton.focus();
+          });
+          body.replaceChildren(preview, codeButton);
+          codeButton.focus();
+        });
+        body.append(previewButton);
+      }
     } else {
       body.innerHTML = markdownToHtml(item.text || item.description || "No text has been added for this entry.");
     }

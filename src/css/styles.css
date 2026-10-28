@@ -206,6 +206,56 @@ button:focus-visible, input:focus-visible, a:focus-visible {
 .detail-body blockquote { margin: 18px 0; border-left: 2px solid var(--gold); padding-left: 15px; color: #756d60; font-style: italic; }
 .detail-body a { color: var(--rust); }
 
+.heart-preview-panel {
+  position: relative;
+  display: grid;
+  min-height: 300px;
+  justify-items: center;
+  align-content: center;
+  border: 1px solid rgba(205,214,244,.12);
+  border-radius: 14px;
+  padding: 24px;
+  background: #1e1e2e;
+  color: #fff;
+}
+.heart-preview-art {
+  width: min(220px, 65vw);
+  overflow: visible;
+  fill: #f38ba8;
+  filter: drop-shadow(0 10px 24px rgba(243,138,168,.24));
+  animation: heart-breathe 2s ease-in-out infinite;
+}
+.heart-preview-message {
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  width: 100%;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font: 700 17px/1.3 var(--sans);
+  text-align: center;
+}
+.heart-preview-trigger {
+  display: block;
+  min-width: 128px;
+  margin: 18px 0 0 auto;
+  border: 1px solid rgba(205,214,244,.12);
+  border-radius: 9px;
+  padding: 9px 16px;
+  background: #313244;
+  color: #cdd6f4;
+  cursor: pointer;
+  font: 600 13px var(--sans);
+  transition: background-color .18s ease, transform .18s ease;
+}
+.heart-preview-trigger:hover { transform: translateY(-1px); background: #45475a; }
+.heart-preview-trigger:focus-visible { outline: 2px solid #f38ba8; outline-offset: 3px; }
+@keyframes heart-breathe {
+  0%, 100% { transform: scale(.92); }
+  50% { transform: scale(1.08); }
+}
+
 @media (max-width: 760px) {
   .site-header { padding: 18px 20px 0; }
   .header-note { display: none; }
@@ -247,4 +297,5 @@ button:focus-visible, input:focus-visible, a:focus-visible {
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; }
+  .heart-preview-art { animation: none; }
 }
