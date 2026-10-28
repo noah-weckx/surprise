@@ -1,0 +1,17 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2021,
+    "sourceType": "script"
+  },
+  "rules": {
+    "no-unused-vars": "error",
+    "no-undef": "error",
+    "quotes": ["error", "double", { "avoidEscape": true }],
+    "semi": ["error", "always"]
+  }
+}

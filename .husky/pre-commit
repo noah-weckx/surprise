@@ -1,0 +1,9 @@
+if [ -d ".venv/Scripts" ]; then
+  PATH="$(pwd)/.venv/Scripts:$PATH"
+  export PATH
+elif [ -d ".venv/bin" ]; then
+  PATH="$(pwd)/.venv/bin:$PATH"
+  export PATH
+fi
+
+npx lint-staged
