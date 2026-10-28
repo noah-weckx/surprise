@@ -179,6 +179,7 @@
       body.innerHTML = markdownToHtml(item.text || item.description || "No text has been added for this entry.");
     }
     detailContent.append(kicker, heading, date, body);
+    document.body.classList.add("dialog-open");
     detailDialog.showModal();
   }
 
@@ -230,6 +231,9 @@
     if (event.key === "Escape" && detailDialog.open) detailDialog.close();
   });
   document.getElementById("dialog-close").addEventListener("click", function () { detailDialog.close(); });
+  detailDialog.addEventListener("close", function () {
+    document.body.classList.remove("dialog-open");
+  });
   detailDialog.addEventListener("click", function (event) {
     if (event.target === detailDialog) detailDialog.close();
   });
