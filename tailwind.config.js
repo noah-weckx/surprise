@@ -4,15 +4,26 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        display: ["Georgia", "serif"],
-        sans: ["Segoe UI", "sans-serif"]
+        display: ["Playfair Display", "Georgia", "serif"],
+        serif: ["Playfair Display", "Georgia", "serif"],
+        sans: ["Plus Jakarta Sans", "Segoe UI", "sans-serif"]
       },
       colors: {
-        ink: "#29261f",
-        paper: "#f7f4ed",
-        moss: "#496653",
-        rust: "#a9573e",
-        gold: "#d0a45c"
+        "emerald-deep": "#064e3b",
+        emerald: {
+          500: "#10b981",
+          700: "#047857",
+          900: "#064e3b"
+        },
+        parchment: "#fdfbf7",
+        terracotta: "#c2410c",
+        "sage-light": "#a3e635",
+        bark: "#1c1917",
+        ink: "#1c1917",
+        paper: "#fdfbf7",
+        moss: "#047857",
+        rust: "#c2410c",
+        gold: "#b7791f"
       }
     }
   },

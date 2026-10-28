@@ -6,7 +6,7 @@
 
   function makeCard(item, actions) {
     const card = document.createElement("article");
-    card.className = "archive-card";
+    card.className = "archive-card archive-card-" + item.category;
     const top = document.createElement("div");
     top.className = "card-topline";
     const type = document.createElement("span");

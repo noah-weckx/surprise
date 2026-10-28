@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#f7f4ed">
+    <meta name="theme-color" content="#064e3b">
     <meta name="description" content="A quiet home for the songs, words, letters, and little things worth keeping.">
     <title>Fieldnotes — Personal Archive</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css" onerror="this.onerror=null;const fallback=document.createElement('script');fallback.src='https://cdn.tailwindcss.com';fallback.async=true;document.head.appendChild(fallback)">
     <script async src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
     <script defer src="content/manifest-data.js"></script>
@@ -14,11 +17,13 @@
     <script defer src="src/js/timeline.js"></script>
     <script defer src="src/js/app.js"></script>
   </head>
-  <body class="min-h-screen bg-paper text-ink antialiased">
+  <body class="min-h-screen bg-parchment text-bark antialiased">
     <header class="site-header">
       <div class="header-top">
         <a class="brand" href="#" aria-label="Fieldnotes home">
-          <span class="brand-mark" aria-hidden="true">f.</span>
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32"><path d="M25.8 5.2C15.1 5 7.2 9.1 6.1 17.1c-.7 5.1 2.5 8.5 6.8 8.5 8.4 0 12.4-10.5 12.9-20.4ZM7.7 26.1c3.4-5.8 8.1-9.9 14.2-13.2"/></svg>
+          </span>
           <span>
             <span class="brand-name">Fieldnotes</span>
             <span class="brand-caption">A life, collected</span>
@@ -50,7 +55,7 @@
     <main class="page-shell">
       <section class="intro-row" aria-labelledby="page-title">
         <div>
-          <p class="eyebrow">PERSONAL COLLECTION <span aria-hidden="true">✳</span> <span id="item-count">A FEW THINGS</span></p>
+          <p class="eyebrow">PERSONAL COLLECTION <span aria-hidden="true">❧</span> <span id="item-count">A FEW THINGS</span></p>
           <h1 id="page-title">The things I <em>keep.</em></h1>
           <p class="intro-copy">Songs half-remembered, words I meant to save, and notes from along the way.</p>
         </div>
@@ -68,7 +73,7 @@
 
     <footer class="page-footer">
       <span>Made of memories &amp; a little bit of dust.</span>
-      <span class="footer-flower" aria-hidden="true">✳</span>
+      <span class="footer-flower" aria-hidden="true">❧</span>
     </footer>
 
     <aside id="audio-dock" class="audio-dock" aria-label="Audio player">

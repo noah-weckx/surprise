@@ -168,9 +168,11 @@
           codeButton.textContent = "View Code";
           codeButton.addEventListener("click", function () {
             body.replaceChildren(pre, previewButton);
+            detailDialog.querySelector(".dialog-inner").scrollTop = 0;
             previewButton.focus();
           });
           body.replaceChildren(preview, codeButton);
+          detailDialog.querySelector(".dialog-inner").scrollTop = 0;
           codeButton.focus();
         });
         body.append(previewButton);
