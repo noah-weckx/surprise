@@ -52,7 +52,7 @@ jobs:
         run: npm run lint:js
 
       - name: Lint Python
-        run: npm run lint:py
+        run: python -m flake8 --max-line-length=100 --exclude=venv,node_modules scripts content
 
   build-and-deploy:
     runs-on: ubuntu-latest

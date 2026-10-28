@@ -5,9 +5,9 @@
   "description": "A warm, static, offline-friendly personal media archive.",
   "scripts": {
     "lint": "npm run lint:html && npm run lint:js && npm run lint:py",
-    "lint:html": "htmlhint \"**/*.html\"",
-    "lint:js": "eslint \"**/*.js\"",
-    "lint:py": "python -m flake8 --max-line-length=100 scripts content",
+    "lint:html": "htmlhint --ignore \"venv/**,node_modules/**\" \"**/*.html\"",
+    "lint:js": "eslint \"src/js/**/*.js\"",
+    "lint:py": "python -m flake8 --max-line-length=100 --exclude=venv,node_modules scripts content",
     "build:css": "tailwindcss -i ./src/css/styles.css -o ./assets/css/styles.css --minify",
     "build": "npm run build:css && python scripts/generate_manifest.py",
     "prepare": "husky"
@@ -22,6 +22,6 @@
   "lint-staged": {
     "*.html": "npx htmlhint",
     "*.js": "npx eslint --fix",
-    "*.py": "python -m flake8 --max-line-length=100"
+    "*.py": "python -m flake8 --max-line-length=100 --exclude=venv,node_modules"
   }
 }

@@ -73,6 +73,8 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 After adding, removing, or renaming files, `python scripts/generate_manifest.py` writes `content/manifest.json` and its `file://`-compatible companion, `content/manifest-data.js`. `npm run build` compiles the minified production Tailwind stylesheet and regenerates the manifest. Python packages are declared in `requirements.txt`; Node development/build packages are declared in `package.json` and locked in `package-lock.json`. The `.venv/` folder is local-only and ignored by Git.
 
+The lint scripts check project HTML, JavaScript under `src/js/`, and Python under `scripts/` and `content/`; virtual environments and installed dependencies such as `venv/` and `node_modules/` are excluded from linting.
+
 To publish changes, commit and push them to the `main` branch (replace the example commit message as needed):
 
 ```powershell
