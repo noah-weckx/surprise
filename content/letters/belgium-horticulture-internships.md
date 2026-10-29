@@ -33,10 +33,17 @@ description: "A comprehensive guide highlighting top horticulture R&D labs, prec
 
 Planning ahead can make a real difference, especially when research teams are arranging summer projects and paperwork. These recommended outreach windows are a helpful starting point:
 
-| Institution | Primary Outreach Target | Recommended Contact Window | Key Administrative Step |
-| :--- | :--- | :--- | :--- |
-| **Thomas More (Campus Geel)** | RADIUS Lab Lead / International Office | Dec–Feb | Thomas More Voluntary Internship Contract |
-| **KU Leuven (Campus Geel)** | Bioscience PIs (SusCroPP / IP&P) | Nov–Jan (5 mo. lead time) | KU Leuven Research Internship Portal submission |
-| **VITO (Mol)** | Remote Sensing Unit / HR Portal | Nov–Feb | Spontaneous Internship Application via portal |
+- **Thomas More (Campus Geel)**
+  - **Primary outreach target:** RADIUS Lab Lead / International Office
+  - **Recommended contact window:** Dec–Feb
+  - **Key administrative step:** Thomas More Voluntary Internship Contract
+- **KU Leuven (Campus Geel)**
+  - **Primary outreach target:** Bioscience PIs (SusCroPP / IP&P)
+  - **Recommended contact window:** Nov–Jan (5 mo. lead time)
+  - **Key administrative step:** KU Leuven Research Internship Portal submission
+- **VITO (Mol)**
+  - **Primary outreach target:** Remote Sensing Unit / HR Portal
+  - **Recommended contact window:** Nov–Feb
+  - **Key administrative step:** Spontaneous Internship Application via portal
 
 Wishing you the best as you explore these opportunities. A thoughtful early message about your interests, experience, and summer availability is a great way to begin.
