@@ -46,4 +46,5 @@ Planning ahead can make a real difference, especially when research teams are ar
   - **Recommended contact window:** Nov–Feb
   - **Key administrative step:** Spontaneous Internship Application via portal
 
-Wishing you the best as you explore these opportunities. A thoughtful early message about your interests, experience, and summer availability is a great way to begin.
+## 3. Notes From Noah
+- I can help with general contact to all places, and these are just a starting point. You don't have to actually look into any of these if you don't want to. You had just mentioned it, so I figured I'd do some research for you
