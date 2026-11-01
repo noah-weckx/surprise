@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-29T10:38:14.371150+00:00",
+  "generatedAt": "2026-11-01T00:39:50.267704+00:00",
   "items": [
     {
-      "id": "content/letters/belgium-horticulture-internships.md",
+      "id": "content/letters/Belgium_horticulture_internships.md",
       "category": "letters",
       "title": "Summer Horticulture Internships in Flanders: Geel Guide",
       "date": "2026-10-29",
@@ -16,8 +16,8 @@
         "research"
       ],
       "description": "A comprehensive guide highlighting top horticulture R&D labs, precision agtech centers, and outreach timelines in the Geel region.",
-      "path": "content/letters/belgium-horticulture-internships.md",
-      "text": "# Summer Horticulture Opportunities in Flanders (Geel / Balen / Kempen Region)\n\n## 1. Top Regional Internship Opportunities\n\n- **Thomas More (Campus Geel)**\n  - *RADIUS Expertise Center*: Sustainable biomass, microalgae cultivation, bio-based fertilizers, and circular nutrient recycling.\n  - *Experimental Greenhouses & Climate Chambers*: Controlled-environment agriculture (CEA), LED light spectrum optimization, automated irrigation, and hydroponics or aeroponics.\n- **KU Leuven (Campus Geel)**\n  - *SusCroPP (Sustainable Crop Production and Protection)*: Biological pest management, plant-pathogen interactions, bio-stimulants, and soil durability.\n  - *IP&P (Insect Production and Processing)*: Insect farming for bioconversion, secondary nutrient recovery, and biological control agents.\n- **VITO (Vlaamse Instelling voor Technologisch Onderzoek) – Mol**\n  - *Remote Sensing & Phenotyping*: Drone and satellite hyperspectral imaging for crop health, canopy stress, nitrogen status, and spatial yield modeling.\n  - *Agro-Data Science*: Spatial agri-data platforms and environmental monitoring networks, including EMPHASIS-Belgium.\n- **Biobest Belgium – Westerlo**\n  - *R&D & Entomological Testing*: Beneficial insects, predatory mites, biopesticides, and bumblebee pollination systems.\n  - The primary R&D environment is English-speaking.\n- **Hooibeekhoeve – Geel**\n  - *Field Crop & Soil Dynamics*: Soil compaction, precision organic fertilization, and cover cropping.\n  - *Water & Resource Efficiency*: Rainwater capture, slurry processing, and closed-loop farm water filtration.\n- **Harvestis / Proefcentrum Hoogstraten (PCH)**\n  - *Controlled Environment Agriculture (CEA)*: Greenhouse strawberries, hydroponic leafy greens, tomatoes, and alternative substrate testing.\n  - PCH is a lead partner in EU research consortia and offers English placements.\n\n## 2. Application Timelines & Action Steps\n\nPlanning ahead can make a real difference, especially when research teams are arranging summer projects and paperwork. These recommended outreach windows are a helpful starting point:\n\n- **Thomas More (Campus Geel)**\n  - **Primary outreach target:** RADIUS Lab Lead / International Office\n  - **Recommended contact window:** Dec–Feb\n  - **Key administrative step:** Thomas More Voluntary Internship Contract\n- **KU Leuven (Campus Geel)**\n  - **Primary outreach target:** Bioscience PIs (SusCroPP / IP&P)\n  - **Recommended contact window:** Nov–Jan (5 mo. lead time)\n  - **Key administrative step:** KU Leuven Research Internship Portal submission\n- **VITO (Mol)**\n  - **Primary outreach target:** Remote Sensing Unit / HR Portal\n  - **Recommended contact window:** Nov–Feb\n  - **Key administrative step:** Spontaneous Internship Application via portal\n\nWishing you the best as you explore these opportunities. A thoughtful early message about your interests, experience, and summer availability is a great way to begin.\n"
+      "path": "content/letters/Belgium_horticulture_internships.md",
+      "text": "# Summer Horticulture Opportunities in Flanders (Geel / Balen / Kempen Region)\n\n## 1. Top Regional Internship Opportunities\n\n- **Thomas More (Campus Geel)**\n  - *RADIUS Expertise Center*: Sustainable biomass, microalgae cultivation, bio-based fertilizers, and circular nutrient recycling.\n  - *Experimental Greenhouses & Climate Chambers*: Controlled-environment agriculture (CEA), LED light spectrum optimization, automated irrigation, and hydroponics or aeroponics.\n- **KU Leuven (Campus Geel)**\n  - *SusCroPP (Sustainable Crop Production and Protection)*: Biological pest management, plant-pathogen interactions, bio-stimulants, and soil durability.\n  - *IP&P (Insect Production and Processing)*: Insect farming for bioconversion, secondary nutrient recovery, and biological control agents.\n- **VITO (Vlaamse Instelling voor Technologisch Onderzoek) – Mol**\n  - *Remote Sensing & Phenotyping*: Drone and satellite hyperspectral imaging for crop health, canopy stress, nitrogen status, and spatial yield modeling.\n  - *Agro-Data Science*: Spatial agri-data platforms and environmental monitoring networks, including EMPHASIS-Belgium.\n- **Biobest Belgium – Westerlo**\n  - *R&D & Entomological Testing*: Beneficial insects, predatory mites, biopesticides, and bumblebee pollination systems.\n  - The primary R&D environment is English-speaking.\n- **Hooibeekhoeve – Geel**\n  - *Field Crop & Soil Dynamics*: Soil compaction, precision organic fertilization, and cover cropping.\n  - *Water & Resource Efficiency*: Rainwater capture, slurry processing, and closed-loop farm water filtration.\n- **Harvestis / Proefcentrum Hoogstraten (PCH)**\n  - *Controlled Environment Agriculture (CEA)*: Greenhouse strawberries, hydroponic leafy greens, tomatoes, and alternative substrate testing.\n  - PCH is a lead partner in EU research consortia and offers English placements.\n\n## 2. Application Timelines & Action Steps\n\nPlanning ahead can make a real difference, especially when research teams are arranging summer projects and paperwork. These recommended outreach windows are a helpful starting point:\n\n- **Thomas More (Campus Geel)**\n  - **Primary outreach target:** RADIUS Lab Lead / International Office\n  - **Recommended contact window:** Dec–Feb\n  - **Key administrative step:** Thomas More Voluntary Internship Contract\n- **KU Leuven (Campus Geel)**\n  - **Primary outreach target:** Bioscience PIs (SusCroPP / IP&P)\n  - **Recommended contact window:** Nov–Jan (5 mo. lead time)\n  - **Key administrative step:** KU Leuven Research Internship Portal submission\n- **VITO (Mol)**\n  - **Primary outreach target:** Remote Sensing Unit / HR Portal\n  - **Recommended contact window:** Nov–Feb\n  - **Key administrative step:** Spontaneous Internship Application via portal\n\n## 3. Notes From Noah\n- I can help with general contact to all places, and these are just a starting point. You don't have to actually look into any of these if you don't want to. You had just mentioned it, so I figured I'd do some research for you"
     },
     {
       "id": "content/code/proud_heart.py",
@@ -49,7 +49,7 @@
       "text": "I'll stay up till God knows when\\\nJust to hear your voice again\\\nAnd i know that you hate it\\\nBut I gotta show Im not fakin\\\n<br>\nI’ve been thinking for some time\\\nThat I want to make you mine\\\nDon’t know where it’s even going\\\nI'm just sitting here hoping\\\nThat you’ll give me a change\\\n<br>\nIf you do, I’ll make it last\\\nDo whatever you could ask\\\nWanna show you that I’m all in\\\n<br>\nI'm on my way back to you\\\nAnd I know what I gotta do\\\nTo show the words that im sayin\\\nAnd the promises i’m makin\\\nYeah they’re not just for show\\\n<br>\nSo I’ll get on that plane\\\nAnd I’ll drive all the way\\\nCross an ocean and state lines\\\nJust to hold you and call you mine\\\nYeah I’m on my way back to you\\\n"
     },
     {
-      "id": "content/letters/letter-1.md",
+      "id": "content/letters/Wed_Info.md",
       "category": "letters",
       "title": "Wedding Information",
       "date": "2026-09-02",
@@ -58,11 +58,11 @@
         "wedding"
       ],
       "description": "General notes I took about your future wedding wishes.",
-      "path": "content/letters/letter-1.md",
+      "path": "content/letters/Wed_Info.md",
       "text": "Main Color: Green (obviously)        \nTheme: Mixed with country (mechanical bull) or fairytale theme with Rapunzel           \nTheme Two: Garden European Style + Old English Rose Garden (Bridgerton)             \nGuy Color: Tan for the guys         \nFlorals: roses, peonies, hydrangeas, snap dragons, babies breath, greenery (dark green eucalyptus)              \nSongs: Father Daughter (I loved her first), She's In love with the boy          \nRing Design: green stone, gold band, leaf extra, two ring set (first one for proposal, second one added at wedding)       "
     },
     {
-      "id": "content/letters/letter-2.md",
+      "id": "content/letters/Favorites.md",
       "category": "letters",
       "title": "Favorites",
       "date": "2026-09-02",
@@ -71,7 +71,7 @@
         "general"
       ],
       "description": "A note of all your favorites.",
-      "path": "content/letters/letter-2.md",
+      "path": "content/letters/Favorites.md",
       "text": "Favorite Quote: \"Be the light\"         \nFavorite Color: Emerald Green (but green in general ig)         \nFavorite Food: Steak        \nFavorite Song: Kingdom of Fear, I Never Lie         \nFavorite Animal: Elephant        \nFavorite Car: Ford Trucks         \nFavorite Verse: Psalm 46:5       \nFavorite Princess: Belle     \nFavorite Prince: Shang         \nFavorite Holiday: Thanksgiving         \n2nd Favorite Princess: Mulan        \nFavorite Genre: True Crime/Murder Mystery (I promise if I go missing, it's not Lizzie's fault)           \nALL TIME FAVE MOVIE: Pride and Prejudice        \n2nd Favorite Movie: Top Gun          \n3rd Favorite Movie: Star Wars: Revenge of the Sith     \nOther Fave Movies: Tangled, Enola Holmes          \nGeneral Favorite Shows: Criminal Minds, Off Campus          \n"
     },
     {
