@@ -152,8 +152,7 @@
       pre.append(code);
       body.append(pre);
       const isHeartPreview = (
-        /(?:^|\/)proud_heart(?:\.py)?$/i.test(item.id || item.path || "") ||
-        (item.tags || []).includes("interactive")
+        /(?:^|\/)proud_heart(?:\.py)?$/i.test(item.id || item.path || "")
       );
       if (isHeartPreview) {
         const previewButton = document.createElement("button");
