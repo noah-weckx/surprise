@@ -1,7 +1,21 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-01T00:39:50.267704+00:00",
+  "generatedAt": "2026-11-02T01:34:15.872516+00:00",
   "items": [
+    {
+      "id": "content/code/random.py",
+      "category": "code",
+      "title": "MiniGame",
+      "date": "2026-11-02",
+      "tags": [
+        "python",
+        "game",
+        "interactive"
+      ],
+      "description": "",
+      "path": "content/code/random.py",
+      "text": "\"\"\"\nTitle: MiniGame\nDate: 2026-11-02\nType: code\ntags: python, game, interactive\n\"\"\"\n\nelephant = r\"\"\"\n   /  \\~~~/  \\\n,----(     ..  )\n /      \\__     |\n/|         (    |\n^ \\   /___\\  /  |\n  |__|   |__|__|\n\"\"\"\n\nprint(elephant)\n"
+    },
     {
       "id": "content/letters/Belgium_horticulture_internships.md",
       "category": "letters",
