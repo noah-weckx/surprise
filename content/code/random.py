@@ -2,7 +2,7 @@
 Title: MiniGame
 Date: 2026-11-02
 Type: code
-tags: python, game, interactive
+tags: python, game
 """
 
 elephant = r"""
